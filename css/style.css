@@ -1,0 +1,3864 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 2000px;
+}
+@font-face {
+    font-family: IranSans;
+    src: url("../fonts/eot/IRANSans(FaNum)_Medium.eot");
+    src: url("../fonts/ttf/IRANSansWeb(FaNum)_Medium.ttf");
+    src: url("../fonts/woff/IRANSansWeb(FaNum)_Medium.woff");
+    src: url("../fonts/woff2/IRANSansWeb(FaNum)_Medium.woff2");
+}
+@media(min-width: 1200px){
+    .container{
+        width: 100%;
+    }
+    /*************make start parallax**************/
+    .container>.parallax{
+        width: 100%;
+        height: 700px;
+        background:url("../images/banner.jpg") center center no-repeat fixed  ;
+        background-size: cover;
+
+    }
+    /*************make end parallax**************/
+    /*************make start menu**************/
+    .parallax>section:nth-child(1){
+        width: 100%;
+        height: 70px;
+
+    }
+    .parallax>section:nth-child(1)>nav{
+        width: 100%;
+        height: inherit;
+
+    }
+
+    .parallax>section:nth-child(1)>nav>ul{
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        background-color: rgba(33, 33, 33, 0.39);
+
+    }
+    .parallax>section:nth-child(1)>nav>ul>li:nth-child(1){
+        width: 70%;
+        height: inherit;
+        float: left;
+    }
+    .parallax>section:nth-child(1)>nav>ul>li:nth-child(2){
+        width: 30%;
+        height: inherit;
+        float: right;
+    }
+    .parallax>section:nth-child(1)>nav>ul>li:nth-child(1)>ul{
+        width: 100% !important;
+        height: inherit;
+        display: flex;
+        flex-wrap:nowrap;
+        flex-direction: row-reverse;
+        justify-content: center;
+        list-style: none;
+    }
+    .parallax>section:nth-child(1)>nav>ul>li:nth-child(1)>ul>li{
+        width: 100px;
+        height: inherit;
+    }
+    .parallax>section:nth-child(1)>nav>ul>li:nth-child(1)>ul>li>a{
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 65px;
+        width: inherit;
+        height: inherit;
+        font-family: IranSans;
+        text-shadow: 2px 4px 6px black;
+        color: #f4f4f4;
+        transition: all 0.5s ease ;
+    }
+    .parallax>section:nth-child(1)>nav>ul>li:nth-child(1)>ul>li>a:hover{
+        color: #ff8013;
+        border-top: 5px solid #808080 ;
+        box-sizing: border-box;
+    }
+    .parallax>section:nth-child(1)>nav>ul>li:nth-child(2)>a{
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 50px;
+    }
+    /*************make end menu**************/
+    /*************make start banner**************/
+    .parallax>section:nth-child(1)>section:nth-child(2){
+        width: 400px;
+        left: 200px;
+        top: 230px;
+        position:relative ;
+    }
+    .parallax>section:nth-child(1)>section:nth-child(2)>section:nth-child(1){
+        left: 0;
+        position: absolute;
+    }
+    .parallax>section:nth-child(1)>section:nth-child(2)>h2:nth-child(2){
+        font-family: IranSans;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        color: #f4f4f4;
+    }
+    .parallax>section:nth-child(1)>section:nth-child(2)>p:nth-child(3){
+        text-align: center;
+        padding-right: 10px;
+        box-sizing: border-box;
+        font-size: 30px;
+        color: #ff8013;
+    }
+    .parallax>section:nth-child(1)>section:nth-child(2)>section:nth-child(4){
+        right: 0;
+        top: 180px;
+        position: absolute;
+
+    }
+    .parallax>section:nth-child(1)>section:nth-child(2)>a:nth-child(5){
+        border: 1px dotted #ff8013;
+        width: 125px;
+        height: 50px;
+        right: 90px;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        line-height: 50px;
+        margin-top: 35px;
+        color: #f4f4f4;
+        font-family: IranSans;
+
+    }
+    .parallax>section:nth-child(1)>section:nth-child(2)>a:nth-child(5):hover{
+        border: 1px dotted #f4f4f4;
+        color: #ff8013;
+
+    }
+    .parallax>section:nth-child(1)>section:nth-child(2)>a:nth-child(6){
+        border: 1px dotted #ff8013;
+        width: 125px;
+        height: 50px;
+        left: 50px;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        line-height: 50px;
+        margin-top: 35px;
+        color: #f4f4f4;
+        font-family: IranSans;
+
+    }
+    .parallax>section:nth-child(1)>section:nth-child(2)>a:nth-child(6):hover{
+        border: 1px dotted #f4f4f4;
+        color: #ff8013;
+
+    }
+    /*************make end banner**************/
+    /*************make start net**************/
+    .container>.net{
+        width: 100%;
+        height: 400px;
+        background: url("../images/about1-bg.jpg") no-repeat;
+        position: relative;
+
+    }
+    .container>.net>section:nth-child(1){
+        width: 50%;
+        height: 300px;
+        top: 10px;
+        position: absolute;
+        left: 10px;
+    }
+    .net>section:nth-child(1)>h4{
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 65px;
+
+    }
+    .net>section:nth-child(1)>h2{
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 65px;
+        color:#ff8013 ;
+    }
+    .net>section:nth-child(1)>hr{
+        border:3px solid #ff8013;
+        border-radius: 12px;
+        width: 100px;
+        float: right;
+        position: absolute;
+        right: 40px;
+    }
+    .net>section:nth-child(1)>h5{
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 65px;
+    }
+    .net>section:nth-child(1)>p{
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+    .net>section:nth-child(2){
+        width: 23%;
+        position: absolute;
+        right: 162px;
+        bottom: 231px;
+    }
+    /*************make end net**************/
+    /*************make start about**************/
+    .container>.about{
+        width: 100%;
+        height: 400px;
+        background: url("../images/about1-us-bg.jpg") center center no-repeat fixed ;
+        background-size: cover;
+        position: relative;
+    }
+    .container>.about>section:nth-child(1){
+        width: 50%;
+        height: 300px;
+        top: 10px;
+        position: absolute;
+        right: 50px;
+    }
+    .about>section:nth-child(1)>h2{
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 65px;
+        color: #ff8013;
+    }
+    .about>section:nth-child(1)>hr{
+        border:3px solid #f4f4f4;
+        border-radius: 12px;
+        width: 100px;
+        float: right;
+        position: absolute;
+        right: 55px;
+
+    }
+
+    .about>section:nth-child(1)>p{
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        color: #f4f4f4;
+        top: 90px;
+        position: absolute;
+    }
+    .about>section:nth-child(1)>a{
+        border: 1px dotted #ff8013;
+        width: 125px;
+        height: 50px;
+        bottom: 40px;
+        right: 90px;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        line-height: 50px;
+        margin-top: 35px;
+        color: #f4f4f4;
+        font-family: IranSans;
+
+    }
+    .about>section:nth-child(1)>a:hover{
+        border: 1px dotted #f4f4f4;
+        color: #ff8013;
+
+    }
+    /*************make end about**************/
+    /*************make start content-box**************/
+    .container>.content-box{
+        width: 100%;
+        height:2100px;
+        background-color: #464646;
+
+    }
+    /*************make start content-box1**************/
+    .content-box>section:nth-child(1){
+        width: 80%;
+        height: 245px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .content-box>section:nth-child(1)>section:nth-child(1){
+        width: inherit;
+        height: inherit;
+
+    }
+    .content-box>section:nth-child(1)>section:nth-child(1)>section:nth-child(1){
+        width: 40%;
+        height: 400px;
+        position: absolute;
+        top: -155px;
+    }
+    .content-box>section:nth-child(1)>section:nth-child(1)>section:nth-child(1)>img{
+        width: 100%;
+        height: inherit;
+    }
+    .content-box>section:nth-child(1)>section:nth-child(1)>section:nth-child(2){
+        width: 60%;
+        height: 245px;
+        position: absolute;
+        right: 0;
+        background: url("../images/gym-girls.jpg")  no-repeat;
+        background-size: cover;
+    }
+    .content-box>section:nth-child(1)>section:nth-child(1)>section:nth-child(2)>p{
+        font-family: IranSans;
+        text-align: center;
+        top: 80px;
+        position: absolute;
+        color: #f4f4f4;
+    }
+    /*************make end content-box1**************/
+    /*************make start content-box2**************/
+    .content-box>section:nth-child(2){
+        width: 1130px;
+        height: 820px;
+        background: url("../images/gym2.jpg") center center no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+        border-top: 10px solid #ff8013;
+        border-bottom: 10px solid #ff8013;
+        top: 67px;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+    .content-box>section:nth-child(2)>section:nth-child(1){
+        width: 200px;
+        height: 90px;
+        margin-left:488px;
+        position: relative;
+        top: 13px;
+    }
+    .content-box>section:nth-child(2)>section:nth-child(1)>h2:nth-child(2){
+        font-family: IranSans;
+        text-align: center;
+        color: #f4f4f4;
+        line-height: 80px;
+    }
+    .content-box>section:nth-child(2)>section:nth-child(1)>section:nth-child(1){
+        left: 0;
+        position: absolute;
+    }
+    .content-box>section:nth-child(2)>section:nth-child(1)>section:nth-child(3){
+        right: 0;
+        top: 70px;
+        position: absolute;
+    }
+    .content-box>section:nth-child(2)>section:nth-child(2){
+        width: 38%;
+        height: 660px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-end;
+    }
+    .content-box>section:nth-child(2)>section:nth-child(2)>img{
+        border-radius: 102px;
+        left: 115px;
+        top: 20px;
+        position: relative;
+    }
+    .content-box>section:nth-child(2)>section:nth-child(2)>section:nth-child(2){
+        width: 100%;
+        height: 305px;
+        background-color: #cccccc;
+        top: 108px;
+        position: relative;
+        border-radius: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+    }.content-box>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)::before{
+         content: "";
+         position: absolute;
+         border: 20px solid;
+         border-color: transparent transparent #ccc transparent;
+         margin-top: -60px;
+         text-align: center;
+         margin-left: 190px;
+     }
+    .content-box>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>h4{
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+    .content-box>section:nth-child(2)>section:nth-child(2)>section:nth-child(2)>p{
+        font-family: IranSans;
+        text-align: right;
+
+    }
+    .content-box>section:nth-child(2)>section:nth-child(3){
+        width: 38%;
+        height: 660px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-end;
+        position: absolute;
+        left: 20px;
+    }
+    .content-box>section:nth-child(2)>section:nth-child(3)>img{
+        border-radius: 102px;
+        left: 115px;
+        top: 20px;
+        position: relative;
+    }
+    .content-box>section:nth-child(2)>section:nth-child(3)>section:nth-child(2){
+        width: 100%;
+        height: 305px;
+        background-color: #cccccc;
+        top: 108px;
+        position: relative;
+        border-radius: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+    }.content-box>section:nth-child(2)>section:nth-child(3)>section:nth-child(2)::before{
+         content: "";
+         position: absolute;
+         border: 20px solid ;
+         border-color: transparent transparent #ccc transparent;
+         margin-top: -60px;
+         text-align: center;
+         margin-left: 190px;
+     }
+    .content-box>section:nth-child(2)>section:nth-child(3)>section:nth-child(2)>h4{
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+    .content-box>section:nth-child(2)>section:nth-child(3)>section:nth-child(2)>p{
+        font-family: IranSans;
+        text-align: right;
+    }
+    /*************make end content-box2**************/
+    /*************make start content-box3**************/
+    .content-box>section:nth-child(3){
+        width: 80%;
+        height: 805px;
+        margin: 0 auto;
+        top: 110px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+    .content-box>section:nth-child(3)>section:nth-child(1){
+        width: 32%;
+        height: inherit;
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+    .content-box>section:nth-child(3)>section:nth-child(1)>section:nth-child(1){
+        width: 100%;
+        height: 200px;
+        background-color: #ff8013;
+        position: relative;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .content-box>section:nth-child(3)>section:nth-child(1)>section:nth-child(1)>h4{
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+    .content-box>section:nth-child(3)>section:nth-child(1)>section:nth-child(1)>p{
+        font-family: IranSans;
+        text-align: right;
+    }
+    .content-box>section:nth-child(3)>section:nth-child(1)>img{
+        top: 20px;
+        position: relative;
+        width: 381px;
+        height: 585px;
+    }
+    .content-box>section:nth-child(3)>section:nth-child(2){
+        width: 32%;
+        height: inherit;
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+    .content-box>section:nth-child(3)>section:nth-child(2)>section:nth-child(2){
+        width: 100%;
+        height: 200px;
+        background-color: #ff8013;
+        position: relative;
+        padding: 20px;
+        box-sizing: border-box;
+        top: 20px;
+    }
+    .content-box>section:nth-child(3)>section:nth-child(2)>section:nth-child(2)>h4{
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+    .content-box>section:nth-child(3)>section:nth-child(2)>section:nth-child(2)>p{
+        font-family: IranSans;
+        text-align: right;
+    }
+    .content-box>section:nth-child(3)>section:nth-child(2)>img{
+        position: relative;
+        width: 381px;
+        height: 585px;
+    }
+    .content-box>section:nth-child(3)>section:nth-child(3){
+        width: 32%;
+        height: inherit;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+    .content-box>section:nth-child(3)>section:nth-child(3)>section:nth-child(1){
+        width: 100%;
+        height: 200px;
+        background-color: #ff8013;
+        position: relative;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .content-box>section:nth-child(3)>section:nth-child(3)>section:nth-child(1)>h4{
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+    .content-box>section:nth-child(3)>section:nth-child(3)>section:nth-child(1)>p{
+        font-family: IranSans;
+        text-align: right;
+    }
+    .content-box>section:nth-child(3)>section:nth-child(3)>img{
+        top: 20px;
+        position: relative;
+        width: 381px;
+        height: 585px;
+    }
+    /*************make end content-box3**************/
+    /*************make end content-box**************/
+    /*************make start footer**************/
+    .container>.footer{
+        width: 100%;
+        height: 400px;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-color: #101011;
+    }
+
+    /*************make start footer1**************/
+
+    .footer>section:nth-child(1){
+        background-color: #101011;
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+    .footer>section:nth-child(1)>a{
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 165px;
+        width: 503px;
+        height: 157px;
+    }
+
+    .footer>section:nth-child(1)>p:nth-child(2){
+        font-family: IranSans;
+        text-align: center;
+        top: 160px;
+        padding: 16px;
+        box-sizing: border-box;
+        color: #f4f4f4;
+    }
+    .footer>section:nth-child(1)>p:nth-child(3){
+        font-family: IranSans;
+        text-align: center;
+        position: absolute;
+        bottom: 6px;
+        padding: 16px;
+        box-sizing: border-box;
+        left: 35px;
+        color: #f4f4f4;
+    }
+    /*************make end footer1**************/
+    /*************make start footer2**************/
+
+    .footer>section:nth-child(2){
+        width: 500px;
+        background-color: #f4f4f4;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+    .footer>section:nth-child(2)>h1{
+        margin-left: 153px;
+        font-family: IranSans;
+        font-size: 30px;
+        color: #ff8013;
+        line-height: 95px;
+        text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.63);
+    }
+    .footer>section:nth-child(2)>form{
+        width: 415px;
+        margin: 0 auto;
+        position: relative;
+        line-height: 35px;
+
+    }
+    .footer>section:nth-child(2)>form>input[type=text]{
+        width: 415px;
+        height: 30px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: #f4f4f4;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: large;
+        font-family: IranSans;
+    }
+    .footer>section:nth-child(2)>form>input[type=email]{
+        width: 415px;
+        height: 30px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: #f4f4f4;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: large;
+        font-family: IranSans;
+    }
+    .footer>section:nth-child(2)>form>textarea{
+        width: 415px;
+        height: 80px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: #f4f4f4;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 70px;
+        resize: none;
+        font-size: large;
+        font-family: IranSans;
+    }
+    .footer>section:nth-child(2)>form>input[type=submit]{
+        width: 200px;
+        height: 30px;
+        outline: none;
+        font-family: IranSans;
+        color: #f4f4f4;
+        background-color: #343a40;
+        position: absolute;
+        left: 111px;
+        font-size: large;
+
+    }
+    .footer>section:nth-child(2)>form>input[type=submit]:hover{
+        color: #f4f4f4;
+        background-color: #23272b;
+    }
+    /*************make end footer2**************/
+    /*************make start footer3**************/
+    .footer>section:nth-child(3){
+        width: 500px;
+        background-color: #101011;
+
+    }
+    .footer>section:nth-child(3)>h5{
+        font-family: IranSans;
+        text-align: center;
+        line-height: 90px;
+        color: #f4f4f4;
+    }
+    .footer>section:nth-child(3)>p{
+        font-family: IranSans;
+        text-align: center;
+        line-height: 20px;
+        color: #f4f4f4;
+    }
+    /*************make end footer3**************/
+    /*************make end footer**************/
+
+}
+@media(min-width: 990px) and (max-width: 1200px){
+    .container{
+        width: 100%;
+    }
+    /*************make start parallax**************/
+    .container > .parallax {
+        width: 100%;
+        height: 700px;
+        background: url("../images/banner.jpg") center center no-repeat fixed;
+        background-size: cover;
+
+    }
+
+    /*************make end parallax**************/
+    /*************make start menu**************/
+    .parallax > section:nth-child(1) {
+        width: 100%;
+        height: 70px;
+
+    }
+
+    .parallax > section:nth-child(1) > nav {
+        width: 100%;
+        height: inherit;
+
+    }
+
+    .parallax > section:nth-child(1) > nav > ul {
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        background-color: rgba(33, 33, 33, 0.39);
+
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) {
+        width: 70%;
+        height: inherit;
+        float: left;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(2) {
+        width: 30%;
+        height: inherit;
+        float: right;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) > ul {
+        width: 100% !important;
+        height: inherit;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) > ul > li {
+        width: 100px;
+        height: inherit;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) > ul > li > a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 65px;
+        width: inherit;
+        height: inherit;
+        font-family: IranSans;
+        text-shadow: 2px 4px 6px black;
+        color: #f4f4f4;
+        transition: all 0.5s ease;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) > ul > li > a:hover {
+        color: #ff8013;
+        border-top: 5px solid #808080;
+        box-sizing: border-box;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(2) > a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    /*************make end menu**************/
+    /*************make start banner**************/
+    .parallax > section:nth-child(1) > section:nth-child(2) {
+        width: 400px;
+        left: 200px;
+        top: 230px;
+        position: relative;
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > section:nth-child(1) {
+        left: 0;
+        position: absolute;
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > h2:nth-child(2) {
+        font-family: IranSans;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        color: #f4f4f4;
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > p:nth-child(3) {
+        text-align: center;
+        padding-right: 10px;
+        box-sizing: border-box;
+        font-size: 30px;
+        color: #ff8013;
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > section:nth-child(4) {
+        right: 0;
+        top: 180px;
+        position: absolute;
+
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > a:nth-child(5) {
+        border: 1px dotted #ff8013;
+        width: 125px;
+        height: 50px;
+        right: 90px;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        line-height: 50px;
+        margin-top: 35px;
+        color: #f4f4f4;
+        font-family: IranSans;
+
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > a:nth-child(5):hover {
+        border: 1px dotted #f4f4f4;
+        color: #ff8013;
+
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > a:nth-child(6) {
+        border: 1px dotted #ff8013;
+        width: 125px;
+        height: 50px;
+        left: 50px;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        line-height: 50px;
+        margin-top: 35px;
+        color: #f4f4f4;
+        font-family: IranSans;
+
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > a:nth-child(6):hover {
+        border: 1px dotted #f4f4f4;
+        color: #ff8013;
+
+    }
+
+    /*************make end banner**************/
+    /*************make start net**************/
+    .container > .net {
+        width: 100%;
+        height: 400px;
+        background: url("../images/about1-bg.jpg") no-repeat;
+        position: relative;
+
+    }
+
+    .container > .net > section:nth-child(1) {
+        width: 50%;
+        height: 300px;
+        top: 10px;
+        position: absolute;
+        left: 10px;
+    }
+
+    .net > section:nth-child(1) > h4 {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 65px;
+
+    }
+
+    .net > section:nth-child(1) > h2 {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 65px;
+        color: #ff8013;
+    }
+
+    .net > section:nth-child(1) > hr {
+        border: 3px solid #ff8013;
+        border-radius: 12px;
+        width: 100px;
+        float: right;
+        position: absolute;
+        right: 40px;
+    }
+
+    .net > section:nth-child(1) > h5 {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 65px;
+    }
+
+    .net > section:nth-child(1) > p {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+
+    .net > section:nth-child(2) {
+        width: 23%;
+        position: absolute;
+        right: 162px;
+        bottom: 231px;
+    }
+
+    /*************make end net**************/
+    /*************make start about**************/
+    .container > .about {
+        width: 100%;
+        height: 400px;
+        background: url("../images/about1-us-bg.jpg") center center no-repeat fixed;
+        background-size: cover;
+        position: relative;
+    }
+
+    .container > .about > section:nth-child(1) {
+        width: 50%;
+        height: 300px;
+        top: 10px;
+        position: absolute;
+        right: 50px;
+    }
+
+    .about > section:nth-child(1) > h2 {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 65px;
+        color: #ff8013;
+    }
+
+    .about > section:nth-child(1) > hr {
+        border: 3px solid #f4f4f4;
+        border-radius: 12px;
+        width: 100px;
+        float: right;
+        position: absolute;
+        right: 55px;
+
+    }
+
+    .about > section:nth-child(1) > p {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        color: #f4f4f4;
+        top: 90px;
+        position: absolute;
+    }
+
+    .about > section:nth-child(1) > a {
+        border: 1px dotted #ff8013;
+        width: 125px;
+        height: 50px;
+        bottom: 40px;
+        right: 90px;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        line-height: 50px;
+        margin-top: 35px;
+        color: #f4f4f4;
+        font-family: IranSans;
+
+    }
+
+    .about > section:nth-child(1) > a:hover {
+        border: 1px dotted #f4f4f4;
+        color: #ff8013;
+
+    }
+
+    /*************make end about**************/
+    /*************make start content-box**************/
+    .container > .content-box {
+        width: 100%;
+        height: 2100px;
+        background-color: #464646;
+
+    }
+
+    /*************make start content-box1**************/
+    .content-box > section:nth-child(1) {
+        width: 80%;
+        height: 245px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) {
+        width: inherit;
+        height: inherit;
+
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) > section:nth-child(1) {
+        width: 40%;
+        height: 400px;
+        position: absolute;
+        top: -155px;
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) > section:nth-child(1) > img {
+        width: 100%;
+        height: inherit;
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) > section:nth-child(2) {
+        width: 60%;
+        height: 245px;
+        position: absolute;
+        right: 0;
+        background: url("../images/gym-girls.jpg") no-repeat;
+        background-size: cover;
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) > section:nth-child(2) > p {
+        font-family: IranSans;
+        text-align: center;
+        top: 80px;
+        position: absolute;
+        color: #f4f4f4;
+    }
+
+    /*************make end content-box1**************/
+    /*************make start content-box2**************/
+    .content-box > section:nth-child(2) {
+        width: 900px;
+        height: 820px;
+        background: url("../images/gym2.jpg") center center no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+        border-top: 10px solid #ff8013;
+        border-bottom: 10px solid #ff8013;
+        top: 67px;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(1) {
+        width: 200px;
+        height: 90px;
+        margin-left: 330px;
+        position: relative;
+        top: 13px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(1) > h2:nth-child(2) {
+        font-family: IranSans;
+        text-align: center;
+        color: #f4f4f4;
+        line-height: 80px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(1) > section:nth-child(1) {
+        left: 0;
+        position: absolute;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) {
+        right: 0;
+        top: 70px;
+        position: absolute;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) {
+        width: 38%;
+        height: 660px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-end;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > img {
+        border-radius: 102px;
+        left: 115px;
+        top: 20px;
+        position: relative;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > section:nth-child(2) {
+        width: 100%;
+        height: 305px;
+        background-color: #cccccc;
+        top: 108px;
+        position: relative;
+        border-radius: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > section:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        border: 20px solid;
+        border-color: transparent transparent #ccc transparent;
+        margin-top: -60px;
+        text-align: center;
+        margin-left: 190px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > section:nth-child(2) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > section:nth-child(2) > p {
+        font-family: IranSans;
+        text-align: right;
+
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) {
+        width: 38%;
+        height: 660px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-end;
+        position: absolute;
+        left: 20px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > img {
+        border-radius: 102px;
+        left: 115px;
+        top: 20px;
+        position: relative;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > section:nth-child(2) {
+        width: 100%;
+        height: 305px;
+        background-color: #cccccc;
+        top: 108px;
+        position: relative;
+        border-radius: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > section:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        border: 20px solid #ccc;
+        border-color: transparent transparent #ccc transparent;
+        margin-top: -60px;
+        text-align: center;
+        margin-left: 190px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > section:nth-child(2) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > section:nth-child(2) > p {
+        font-family: IranSans;
+        text-align: right;
+    }
+
+    /*************make end content-box2**************/
+    /*************make start content-box3**************/
+    .content-box > section:nth-child(3) {
+        width: 80%;
+        height: 805px;
+        margin: 0 auto;
+        top: 110px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) {
+        width: 32%;
+        height: inherit;
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) {
+        width: 100%;
+        height: 200px;
+        background-color: #ff8013;
+        position: relative;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) > p {
+        font-family: IranSans;
+        text-align: right;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) > img {
+        top: 20px;
+        position: relative;
+        width: 381px;
+        height: 585px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) {
+        width: 32%;
+        height: inherit;
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) > section:nth-child(2) {
+        width: 100%;
+        height: 200px;
+        background-color: #ff8013;
+        position: relative;
+        padding: 20px;
+        box-sizing: border-box;
+        top: 20px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) > section:nth-child(2) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) > section:nth-child(2) > p {
+        font-family: IranSans;
+        text-align: right;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) > img {
+        position: relative;
+        width: 381px;
+        height: 585px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) {
+        width: 32%;
+        height: inherit;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) > section:nth-child(1) {
+        width: 100%;
+        height: 200px;
+        background-color: #ff8013;
+        position: relative;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) > section:nth-child(1) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) > section:nth-child(1) > p {
+        font-family: IranSans;
+        text-align: right;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) > img {
+        top: 20px;
+        position: relative;
+        width: 381px;
+        height: 585px;
+    }
+
+    /*************make end content-box3**************/
+    /*************make end content-box**************/
+    /*************make start footer**************/
+    .container > .footer {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #101011;
+    }
+
+    /*************make start footer1**************/
+    .footer > section:nth-child(1) {
+        background-color: #101011;
+        width: 400px;
+
+    }
+
+    .footer > section:nth-child(1) > a {
+        display: block;
+        text-decoration: none;
+        line-height: 165px;
+        width: 503px;
+        height: 157px;
+    }
+
+    .footer > section:nth-child(1) > p:nth-child(2) {
+        font-family: IranSans;
+        text-align: center;
+        top: 160px;
+        padding: 16px;
+        box-sizing: border-box;
+        color: #f4f4f4;
+    }
+
+    .footer > section:nth-child(1) > p:nth-child(3) {
+        font-family: IranSans;
+        position: absolute;
+        bottom: 6px;
+        padding: 16px;
+        box-sizing: border-box;
+        left: 15px;
+        color: #f4f4f4;
+    }
+
+    /*************make end footer1**************/
+    /*************make start footer2**************/
+    .footer > section:nth-child(2) {
+        background-color: #f4f4f4;
+        width: 500px;
+        position: relative;
+        top: -30px;
+        height: 430px;
+    }
+
+    .footer > section:nth-child(2) > h1 {
+        text-align: center;
+        font-family: IranSans;
+        font-size: 30px;
+        color: #ff8013;
+        line-height: 95px;
+        text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.63);
+        position: relative;
+        right: 60px;
+    }
+
+    .footer > section:nth-child(2) > form {
+        width: 300px;
+        margin: 0 auto;
+        position: relative;
+        line-height: 35px;
+
+    }
+
+    .footer > section:nth-child(2) > form > input[type=text] {
+        width: 300px;
+        height: 30px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: #f4f4f4;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: large;
+        font-family: IranSans;
+    }
+
+    .footer > section:nth-child(2) > form > input[type=email] {
+        width: 300px;
+        height: 30px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: #f4f4f4;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: large;
+        font-family: IranSans;
+    }
+
+    .footer > section:nth-child(2) > form > textarea {
+        width: 300px;
+        height: 80px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: #f4f4f4;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 70px;
+        resize: none;
+        font-size: large;
+        font-family: IranSans;
+    }
+
+    .footer > section:nth-child(2) > form > input[type=submit] {
+        width: 200px;
+        height: 30px;
+        outline: none;
+        font-family: IranSans;
+        color: #f4f4f4;
+        background-color: #343a40;
+        position: absolute;
+        left: 50px;
+        font-size: large;
+        font-family: IranSans;
+
+    }
+
+    .footer > section:nth-child(2) > form > input[type=submit]:hover {
+        color: #f4f4f4;
+        background-color: #23272b;
+    }
+
+    /*************make end footer2**************/
+    /*************make start footer3**************/
+    .footer > section:nth-child(3) {
+        width: 500px;
+        background-color: #101011;
+
+    }
+
+    .footer > section:nth-child(3) > h5 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 90px;
+        color: #f4f4f4;
+    }
+
+    .footer > section:nth-child(3) > p {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 20px;
+        color: #f4f4f4;
+    }
+    /*************make end footer3**************/
+    /*************make end footer**************/
+}
+@media(min-width: 768px) and (max-width: 990px){
+    .container{
+        width: 100%;
+    }
+    /*************make start parallax**************/
+    .container > .parallax {
+        width: 100%;
+        height: 700px;
+        background: url("../images/banner.jpg") center center no-repeat fixed;
+        background-size: cover;
+
+    }
+
+    /*************make end parallax**************/
+    /*************make start menu**************/
+    .parallax > section:nth-child(1) {
+        width: 100%;
+        height: 70px;
+
+    }
+
+    .parallax > section:nth-child(1) > nav {
+        width: 100%;
+        height: inherit;
+
+    }
+
+    .parallax > section:nth-child(1) > nav > ul {
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        background-color: rgba(33, 33, 33, 0.39);
+
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) {
+        width: 70%;
+        height: inherit;
+        float: left;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(2) {
+        width: 30%;
+        height: inherit;
+        float: right;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) > ul {
+        width: 100% !important;
+        height: inherit;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) > ul > li {
+        width: 100px;
+        height: inherit;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) > ul > li > a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 65px;
+        width: inherit;
+        height: inherit;
+        font-family: IranSans;
+        text-shadow: 2px 4px 6px black;
+        color: #f4f4f4;
+        transition: all 0.5s ease;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) > ul > li > a:hover {
+        color: #ff8013;
+        border-top: 5px solid #808080;
+        box-sizing: border-box;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(2) > a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    /*************make end menu**************/
+    /*************make start banner**************/
+    .parallax > section:nth-child(1) > section:nth-child(2) {
+        width: 400px;
+        left: 200px;
+        top: 230px;
+        position: relative;
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > section:nth-child(1) {
+        left: 0;
+        position: absolute;
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > h2:nth-child(2) {
+        font-family: IranSans;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        color: #f4f4f4;
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > p:nth-child(3) {
+        text-align: center;
+        padding-right: 10px;
+        box-sizing: border-box;
+        font-size: 30px;
+        color: #ff8013;
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > section:nth-child(4) {
+        right: 0;
+        top: 180px;
+        position: absolute;
+
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > a:nth-child(5) {
+        border: 1px dotted #ff8013;
+        width: 125px;
+        height: 50px;
+        right: 90px;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        line-height: 50px;
+        margin-top: 35px;
+        color: #f4f4f4;
+        font-family: IranSans;
+
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > a:nth-child(5):hover {
+        border: 1px dotted #f4f4f4;
+        color: #ff8013;
+
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > a:nth-child(6) {
+        border: 1px dotted #ff8013;
+        width: 125px;
+        height: 50px;
+        left: 50px;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        line-height: 50px;
+        margin-top: 35px;
+        color: #f4f4f4;
+        font-family: IranSans;
+
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > a:nth-child(6):hover {
+        border: 1px dotted #f4f4f4;
+        color: #ff8013;
+
+    }
+
+    /*************make end banner**************/
+    /*************make start net**************/
+    .container > .net {
+        width: 100%;
+        height: 400px;
+        background: url("../images/about1-bg.jpg") no-repeat;
+        position: relative;
+
+    }
+
+    .container > .net > section:nth-child(1) {
+        width: 50%;
+        height: 300px;
+        top: 10px;
+        position: absolute;
+        left: 10px;
+    }
+
+    .net > section:nth-child(1) > h4 {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 65px;
+
+    }
+
+    .net > section:nth-child(1) > h2 {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 65px;
+        color: #ff8013;
+    }
+
+    .net > section:nth-child(1) > hr {
+        border: 3px solid #ff8013;
+        border-radius: 12px;
+        width: 100px;
+        float: right;
+        position: absolute;
+        right: 40px;
+    }
+
+    .net > section:nth-child(1) > h5 {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 65px;
+    }
+
+    .net > section:nth-child(1) > p {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+
+    .net > section:nth-child(2) {
+        width: 23%;
+        position: absolute;
+        right: 162px;
+        bottom: 231px;
+    }
+
+    /*************make end net**************/
+    /*************make start about**************/
+    .container > .about {
+        width: 100%;
+        height: 400px;
+        background: url("../images/about1-us-bg.jpg") center center no-repeat fixed;
+        background-size: cover;
+        position: relative;
+    }
+
+    .container > .about > section:nth-child(1) {
+        width: 50%;
+        height: 300px;
+        top: 10px;
+        position: absolute;
+        right: 50px;
+    }
+
+    .about > section:nth-child(1) > h2 {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 65px;
+        color: #ff8013;
+    }
+
+    .about > section:nth-child(1) > hr {
+        border: 3px solid #f4f4f4;
+        border-radius: 12px;
+        width: 100px;
+        float: right;
+        position: absolute;
+        right: 55px;
+
+    }
+
+    .about > section:nth-child(1) > p {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        color: #f4f4f4;
+        top: 90px;
+        position: absolute;
+    }
+
+    .about > section:nth-child(1) > a {
+        border: 1px dotted #ff8013;
+        width: 125px;
+        height: 50px;
+        bottom: 20px;
+        right: 90px;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        line-height: 50px;
+        margin-top: 35px;
+        color: #f4f4f4;
+        font-family: IranSans;
+
+    }
+
+    .about > section:nth-child(1) > a:hover {
+        border: 1px dotted #f4f4f4;
+        color: #ff8013;
+
+    }
+
+    /*************make end about**************/
+    /*************make start content-box**************/
+    .container > .content-box {
+        width: 100%;
+        height: 2100px;
+        background-color: #464646;
+
+    }
+
+    /*************make start content-box1**************/
+    .content-box > section:nth-child(1) {
+        width: 80%;
+        height: 245px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) {
+        width: inherit;
+        height: inherit;
+
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) > section:nth-child(1) {
+        width: 40%;
+        height: 400px;
+        position: absolute;
+        top: -155px;
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) > section:nth-child(1) > img {
+        width: 100%;
+        height: inherit;
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) > section:nth-child(2) {
+        width: 60%;
+        height: 245px;
+        position: absolute;
+        right: 0;
+        background: url("../images/gym-girls.jpg") no-repeat;
+        background-size: cover;
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) > section:nth-child(2) > p {
+        font-family: IranSans;
+        text-align: center;
+        top: 80px;
+        position: absolute;
+        color: #f4f4f4;
+    }
+
+    /*************make end content-box1**************/
+    /*************make start content-box2**************/
+    .content-box > section:nth-child(2) {
+        width: 758px;
+        height: 820px;
+        background: url("../images/gym2.jpg") center center no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+        border-top: 10px solid #ff8013;
+        border-bottom: 10px solid #ff8013;
+        top: 67px;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(1) {
+        width: 200px;
+        height: 90px;
+        margin-left: 295px;
+        position: relative;
+        top: 13px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(1) > h2:nth-child(2) {
+        font-family: IranSans;
+        text-align: center;
+        color: #f4f4f4;
+        line-height: 80px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(1) > section:nth-child(1) {
+        left: 0;
+        position: absolute;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) {
+        right: 0;
+        top: 70px;
+        position: absolute;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) {
+        width: 38%;
+        height: 660px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-end;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > img {
+        border-radius: 102px;
+        left: 38px;
+        top: 20px;
+        position: relative;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > section:nth-child(2) {
+        width: 90%;
+        height: 305px;
+        background-color: #cccccc;
+        top: 108px;
+        position: relative;
+        border-radius: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > section:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        border: 20px solid;
+        border-color: transparent transparent #ccc transparent;
+        margin-top: -60px;
+        text-align: center;
+        margin-left: 145px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > section:nth-child(2) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > section:nth-child(2) > p {
+        font-family: IranSans;
+        text-align: right;
+
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) {
+        width: 38%;
+        height: 660px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-end;
+        position: absolute;
+        left: 20px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > img {
+        border-radius: 102px;
+        left: 65px;
+        top: 20px;
+        position: relative;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > section:nth-child(2) {
+        width: 90%;
+        height: 305px;
+        background-color: #cccccc;
+        top: 108px;
+        position: relative;
+        border-radius: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > section:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        border: 20px solid;
+        border-color: transparent transparent #ccc transparent;
+        margin-top: -60px;
+        text-align: center;
+        margin-left: 135px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > section:nth-child(2) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > section:nth-child(2) > p {
+        font-family: IranSans;
+        text-align: right;
+    }
+
+    /*************make end content-box2**************/
+    /*************make start content-box3**************/
+    .content-box > section:nth-child(3) {
+        width: 95%;
+        height: 805px;
+        margin: 0 auto;
+        top: 110px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) {
+        width: 32%;
+        height: inherit;
+        margin-right: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) {
+        width: 100%;
+        height: 200px;
+        background-color: #ff8013;
+        position: relative;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) > p {
+        font-family: IranSans;
+        text-align: right;
+        font-size: 14px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) > img {
+        top: 20px;
+        position: relative;
+        width: 381px;
+        height: 585px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) {
+        width: 32%;
+        height: inherit;
+        margin-right: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) > section:nth-child(2) {
+        width: 100%;
+        height: 200px;
+        background-color: #ff8013;
+        position: relative;
+        padding: 20px;
+        box-sizing: border-box;
+        top: 20px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) > section:nth-child(2) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) > section:nth-child(2) > p {
+        font-family: IranSans;
+        text-align: right;
+        font-size: 14px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) > img {
+        position: relative;
+        width: 381px;
+        height: 585px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) {
+        width: 32%;
+        height: inherit;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) > section:nth-child(1) {
+        width: 100%;
+        height: 200px;
+        background-color: #ff8013;
+        position: relative;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) > section:nth-child(1) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) > section:nth-child(1) > p {
+        font-family: IranSans;
+        text-align: right;
+        font-size: 14px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) > img {
+        top: 20px;
+        position: relative;
+        width: 381px;
+        height: 585px;
+    }
+
+    /*************make end content-box3**************/
+    /*************make end content-box**************/
+    /*************make start footer**************/
+    .container > .footer {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #101011;
+    }
+
+    /*************make start footer1**************/
+    .footer > section:nth-child(1) {
+        background-color: #101011;
+        width: 245px;
+
+    }
+
+    .footer > section:nth-child(1) > a {
+        display: block;
+        text-decoration: none;
+        margin-left: 21px;
+        line-height: 165px;
+        width: 236px;
+        height: 157px;
+    }
+
+    .footer > section:nth-child(1) > p:nth-child(2) {
+        font-family: IranSans;
+        text-align: center;
+        top: 160px;
+        padding: 16px;
+        box-sizing: border-box;
+        color: #f4f4f4;
+    }
+
+    .footer > section:nth-child(1) > p:nth-child(3) {
+        font-family: IranSans;
+        position: absolute;
+        bottom: 6px;
+        padding: 16px;
+        box-sizing: border-box;
+        left: 15px;
+        color: #f4f4f4;
+        width: 280px;
+        font-size: 11px;
+    }
+
+    /*************make end footer1**************/
+    /*************make start footer2**************/
+    .footer > section:nth-child(2) {
+        background-color: #f4f4f4;
+        width: 760px;
+        position: relative;
+        top: -30px;
+        height: 430px;
+    }
+
+    .footer > section:nth-child(2) > h1 {
+        text-align: center;
+        font-family: IranSans;
+        font-size: 30px;
+        color: #ff8013;
+        line-height: 95px;
+        text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.63);
+    }
+
+    .footer > section:nth-child(2) > form {
+        width: 200px;
+        margin: 0 auto;
+        position: relative;
+        line-height: 35px;
+
+    }
+
+    .footer > section:nth-child(2) > form > input[type=text] {
+        width: 200px;
+        height: 30px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: #f4f4f4;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: x-small;
+        font-family: IranSans;
+    }
+
+    .footer > section:nth-child(2) > form > input[type=email] {
+        width: 200px;
+        height: 30px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: #f4f4f4;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: small;
+        font-family: IranSans;
+    }
+
+    .footer > section:nth-child(2) > form > textarea {
+        width: 200px;
+        height: 80px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: #f4f4f4;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 70px;
+        resize: none;
+        font-size: small;
+        font-family: IranSans;
+    }
+
+    .footer > section:nth-child(2) > form > input[type=submit] {
+        width: 130px;
+        height: 30px;
+        outline: none;
+        color: #f4f4f4;
+        background-color: #343a40;
+        position: absolute;
+        left: 35px;
+        font-size: large;
+        font-family: IranSans;
+
+    }
+
+    .footer > section:nth-child(2) > form > input[type=submit]:hover {
+        color: #f4f4f4;
+        background-color: #23272b;
+    }
+
+    /*************make end footer2**************/
+    /*************make start footer3**************/
+    .footer > section:nth-child(3) {
+        width: 500px;
+        background-color: #101011;
+
+    }
+
+    .footer > section:nth-child(3) > h5 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 90px;
+        color: #f4f4f4;
+    }
+
+    .footer > section:nth-child(3) > p {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 20px;
+        color: #f4f4f4;
+    }
+    /*************make end footer3**************/
+    /*************make end footer**************/
+}
+@media(min-width: 560px) and (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+    /*************make start parallax**************/
+    .container > .parallax {
+        width: 100%;
+        height: 700px;
+        background: url("../images/banner.jpg") center center no-repeat fixed;
+        background-size: cover;
+
+    }
+
+    /*************make end parallax**************/
+    /*************make start menu**************/
+    .parallax > section:nth-child(1) {
+        width: 100%;
+        height: 70px;
+
+    }
+
+    .parallax > section:nth-child(1) > nav {
+        width: 100%;
+        height: inherit;
+
+    }
+
+    .parallax > section:nth-child(1) > nav > ul {
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        background-color: rgba(33, 33, 33, 0.39);
+
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) {
+        width: 70%;
+        height: inherit;
+        float: left;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(2) {
+        width: 30%;
+        height: inherit;
+        float: right;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) > ul {
+        width: 100% !important;
+        height: inherit;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) > ul > li {
+        width: 100px;
+        height: inherit;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) > ul > li > a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 65px;
+        width: inherit;
+        height: inherit;
+        font-family: IranSans;
+        text-shadow: 2px 4px 6px black;
+        color: #f4f4f4;
+        transition: all 0.5s ease;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) > ul > li > a:hover {
+        color: #ff8013;
+        border-top: 5px solid #808080;
+        box-sizing: border-box;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(2) > a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    /*************make end menu**************/
+    /*************make start banner**************/
+    .parallax > section:nth-child(1) > section:nth-child(2) {
+        width: 400px;
+        left: 200px;
+        top: 230px;
+        position: relative;
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > section:nth-child(1) {
+        left: 0;
+        position: absolute;
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > h2:nth-child(2) {
+        font-family: IranSans;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        color: #f4f4f4;
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > p:nth-child(3) {
+        text-align: center;
+        padding-right: 10px;
+        box-sizing: border-box;
+        font-size: 30px;
+        color: #ff8013;
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > section:nth-child(4) {
+        right: 0;
+        top: 180px;
+        position: absolute;
+
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > a:nth-child(5) {
+        border: 1px dotted #ff8013;
+        width: 125px;
+        height: 50px;
+        right: 90px;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        line-height: 50px;
+        margin-top: 35px;
+        color: #f4f4f4;
+        font-family: IranSans;
+
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > a:nth-child(5):hover {
+        border: 1px dotted #f4f4f4;
+        color: #ff8013;
+
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > a:nth-child(6) {
+        border: 1px dotted #ff8013;
+        width: 125px;
+        height: 50px;
+        left: 50px;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        line-height: 50px;
+        margin-top: 35px;
+        color: #f4f4f4;
+        font-family: IranSans;
+
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > a:nth-child(6):hover {
+        border: 1px dotted #f4f4f4;
+        color: #ff8013;
+
+    }
+
+    /*************make end banner**************/
+    /*************make start net**************/
+    .container > .net {
+        width: 100%;
+        height: 400px;
+        background: url("../images/about1-bg.jpg") no-repeat;
+        position: relative;
+
+    }
+
+    .container > .net > section:nth-child(1) {
+        width: 50%;
+        height: 300px;
+        top: 10px;
+        position: absolute;
+        left: 10px;
+    }
+
+    .net > section:nth-child(1) > h4 {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 65px;
+
+    }
+
+    .net > section:nth-child(1) > h2 {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 65px;
+        color: #ff8013;
+    }
+
+    .net > section:nth-child(1) > hr {
+        border: 3px solid #ff8013;
+        border-radius: 12px;
+        width: 100px;
+        float: right;
+        position: absolute;
+        right: 40px;
+    }
+
+    .net > section:nth-child(1) > h5 {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 65px;
+    }
+
+    .net > section:nth-child(1) > p {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+
+    .net > section:nth-child(2) {
+        width: 23%;
+        position: absolute;
+        right: 162px;
+        bottom: 231px;
+    }
+
+    /*************make end net**************/
+    /*************make start about**************/
+    .container > .about {
+        width: 100%;
+        height: 400px;
+        background: url("../images/about1-us-bg.jpg") center center no-repeat fixed;
+        background-size: cover;
+        position: relative;
+    }
+
+    .container > .about > section:nth-child(1) {
+        width: 50%;
+        height: 300px;
+        top: 10px;
+        position: absolute;
+        right: 50px;
+    }
+
+    .about > section:nth-child(1) > h2 {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 65px;
+        color: #ff8013;
+    }
+
+    .about > section:nth-child(1) > hr {
+        border: 3px solid #f4f4f4;
+        border-radius: 12px;
+        width: 100px;
+        float: right;
+        position: absolute;
+        right: 55px;
+
+    }
+
+    .about > section:nth-child(1) > p {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        color: #f4f4f4;
+        top: 155px;
+        position: absolute;
+    }
+
+    .about > section:nth-child(1) > a {
+        border: 1px dotted #ff8013;
+        width: 125px;
+        height: 50px;
+        bottom: -68px;
+        right: 90px;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        line-height: 50px;
+        margin-top: 35px;
+        color: #f4f4f4;
+        font-family: IranSans;
+
+    }
+
+    .about > section:nth-child(1) > a:hover {
+        border: 1px dotted #f4f4f4;
+        color: #ff8013;
+
+    }
+
+    /*************make end about**************/
+    /*************make start content-box**************/
+    .container > .content-box {
+        width: 100%;
+        height: 2100px;
+        background-color: #464646;
+
+    }
+
+    /*************make start content-box1**************/
+    .content-box > section:nth-child(1) {
+        width: 80%;
+        height: 245px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) {
+        width: inherit;
+        height: inherit;
+
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) > section:nth-child(1) {
+        width: 40%;
+        height: 400px;
+        position: absolute;
+        top: -155px;
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) > section:nth-child(1) > img {
+        width: 100%;
+        height: inherit;
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) > section:nth-child(2) {
+        width: 60%;
+        height: 245px;
+        position: absolute;
+        right: 0;
+        background: url("../images/gym-girls.jpg") no-repeat;
+        background-size: cover;
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) > section:nth-child(2) > p {
+        font-family: IranSans;
+        text-align: center;
+        top: 80px;
+        position: absolute;
+        color: #f4f4f4;
+    }
+
+    /*************make end content-box1**************/
+    /*************make start content-box2**************/
+    .content-box > section:nth-child(2) {
+        width: 100%;
+        height: 820px;
+        background: url("../images/gym2.jpg") center center no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+        border-top: 10px solid #ff8013;
+        border-bottom: 10px solid #ff8013;
+        top: 67px;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(1) {
+        width: 200px;
+        height: 90px;
+        margin-left: 240px;
+        position: relative;
+        top: 13px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(1) > h2:nth-child(2) {
+        font-family: IranSans;
+        text-align: center;
+        color: #f4f4f4;
+        line-height: 80px;
+        font-size: 19px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(1) > section:nth-child(1) {
+        left: 0;
+        position: absolute;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) {
+        right: 0;
+        top: 70px;
+        position: absolute;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) {
+        width: 38%;
+        height: 660px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-end;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > img {
+        border-radius: 102px;
+        top: 20px;
+        right: 20px;
+        position: relative;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > section:nth-child(2) {
+        width: 90%;
+        height: 305px;
+        background-color: #cccccc;
+        top: 108px;
+        position: relative;
+        border-radius: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > section:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        border: 20px solid;
+        border-color: transparent transparent #ccc transparent;
+        margin-top: -60px;
+        text-align: center;
+        margin-left: 95px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > section:nth-child(2) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > section:nth-child(2) > p {
+        font-family: IranSans;
+        text-align: right;
+
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) {
+        width: 38%;
+        height: 660px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-end;
+        position: absolute;
+        left: 20px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > img {
+        border-radius: 102px;
+        left: 26px;
+        top: 20px;
+        position: relative;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > section:nth-child(2) {
+        width: 90%;
+        height: 305px;
+        background-color: #cccccc;
+        top: 108px;
+        position: relative;
+        border-radius: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > section:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        border: 20px solid ;
+        border-color: transparent transparent #ccc transparent;
+        margin-top: -60px;
+        text-align: center;
+        margin-left: 95px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > section:nth-child(2) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > section:nth-child(2) > p {
+        font-family: IranSans;
+        text-align: right;
+    }
+
+    /*************make end content-box2**************/
+    /*************make start content-box3**************/
+    .content-box > section:nth-child(3) {
+        width: 80%;
+        height: 805px;
+        margin: 0 auto;
+        top: 110px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) {
+        width: 30%;
+        height: inherit;
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) {
+        width: 100%;
+        height: 200px;
+        background-color: #ff8013;
+        position: relative;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) > p {
+        font-family: IranSans;
+        text-align: right;
+        font-size: 11px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) > img {
+        top: 20px;
+        position: relative;
+        width: 175px;
+        height: 585px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) {
+        width: 32%;
+        height: inherit;
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) > section:nth-child(2) {
+        width: 100%;
+        height: 200px;
+        background-color: #ff8013;
+        position: relative;
+        padding: 20px;
+        box-sizing: border-box;
+        top: 20px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) > section:nth-child(2) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) > section:nth-child(2) > p {
+        font-family: IranSans;
+        text-align: right;
+        font-size: 11px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) > img {
+        position: relative;
+        width: 175px;
+        height: 585px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) {
+        width: 32%;
+        height: inherit;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) > section:nth-child(1) {
+        width: 100%;
+        height: 200px;
+        background-color: #ff8013;
+        position: relative;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) > section:nth-child(1) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) > section:nth-child(1) > p {
+        font-family: IranSans;
+        text-align: right;
+        font-size: 11px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) > img {
+        top: 20px;
+        position: relative;
+        width: 175px;
+        height: 585px;
+    }
+
+    /*************make end content-box3**************/
+    /*************make end content-box**************/
+    /*************make start footer**************/
+    .container > .footer {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #101011;
+    }
+
+    /*************make start footer1**************/
+    .footer > section:nth-child(1) {
+        background-color: #101011;
+        width: 222px;
+
+    }
+
+    .footer > section:nth-child(1) > a {
+        display: block;
+        text-decoration: none;
+        margin-left: 30px;
+        line-height: 165px;
+        width: 236px;
+        height: 157px;
+    }
+
+    .footer > section:nth-child(1) > p:nth-child(2) {
+        font-family: IranSans;
+        text-align: center;
+        top: 160px;
+        padding: 16px;
+        box-sizing: border-box;
+        color: #f4f4f4;
+    }
+
+    .footer > section:nth-child(1) > p:nth-child(3) {
+        font-family: IranSans;
+        position: absolute;
+        bottom: 6px;
+        box-sizing: border-box;
+        left: 17px;
+        color: #f4f4f4;
+        width: 200px;
+        font-size: 11px;
+    }
+
+    /*************make end footer1**************/
+    /*************make start footer2**************/
+    .footer > section:nth-child(2) {
+        background-color: #f4f4f4;
+        width: 500px;
+        position: relative;
+        top: -30px;
+        height: 430px;
+    }
+
+    .footer > section:nth-child(2) > h1 {
+        text-align: center;
+        font-family: IranSans;
+        font-size: 25px;
+        color: #ff8013;
+        line-height: 95px;
+        text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.63);
+    }
+
+    .footer > section:nth-child(2) > form {
+        width: 200px;
+        margin: 0 auto;
+        position: relative;
+        line-height: 35px;
+
+    }
+
+    .footer > section:nth-child(2) > form > input[type=text] {
+        width: 200px;
+        height: 30px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: #f4f4f4;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: x-small;
+        font-family: IranSans;
+    }
+
+    .footer > section:nth-child(2) > form > input[type=email] {
+        width: 200px;
+        height: 30px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: #f4f4f4;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: x-small;
+        font-family: IranSans;
+    }
+
+    .footer > section:nth-child(2) > form > textarea {
+        width: 200px;
+        height: 30px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: #f4f4f4;
+        box-sizing: border-box;
+        text-align: center;
+        resize: none;
+        font-size: x-small;
+        font-family: IranSans;
+    }
+
+    .footer > section:nth-child(2) > form > input[type=submit] {
+        width: 120px;
+        height: 30px;
+        outline: none;
+        color: #f4f4f4;
+        background-color: #343a40;
+        position: absolute;
+        left: 39px;
+        font-size: medium;
+        font-family: IranSans;
+
+    }
+
+    .footer > section:nth-child(2) > form > input[type=submit]:hover {
+        color: #f4f4f4;
+        background-color: #23272b;
+    }
+
+    /*************make end footer2**************/
+    /*************make start footer3**************/
+    .footer > section:nth-child(3) {
+        width: 500px;
+        background-color: #101011;
+
+    }
+
+    .footer > section:nth-child(3) > h5 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 90px;
+        color: #f4f4f4;
+    }
+
+    .footer > section:nth-child(3) > p {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 20px;
+        color: #f4f4f4;
+    }
+    /*************make end footer3**************/
+    /*************make end footer**************/
+}
+@media(max-width: 560px){
+    .container{
+        width: 100%;
+    }
+    /*************make start parallax**************/
+    .container > .parallax {
+        width: 100%;
+        height: 700px;
+        background: url("../images/banner.jpg") center center no-repeat fixed;
+        background-size: cover;
+
+    }
+
+    /*************make end parallax**************/
+    /*************make start menu**************/
+    .parallax > section:nth-child(1) {
+        width: 100%;
+        height: 200px;
+    }
+
+    .parallax > section:nth-child(1) > nav {
+        width: 100%;
+        height: inherit;
+
+
+    }
+
+    .parallax > section:nth-child(1) > nav > ul {
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        background-color: rgba(33, 33, 33, 0.39);
+
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) {
+        width: 50%;
+        height: 50px;
+        float: left;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(2) {
+        width: 35%;
+        height: 90px;
+        float: right;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) > ul {
+        width: 100% !important;
+        height: inherit;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) > ul > li {
+        width: 190px;
+        height: inherit;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) > ul > li > a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 47px;
+        width: inherit;
+        height: inherit;
+        font-family: IranSans;
+        text-shadow: 2px 4px 6px black;
+        color: #f4f4f4;
+        transition: all 0.5s ease;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(1) > ul > li > a:hover {
+        color: #ff8013;
+        border-top: 5px solid #808080;
+        box-sizing: border-box;
+    }
+
+    .parallax > section:nth-child(1) > nav > ul > li:nth-child(2) > a {
+        text-decoration: none;
+        text-align: center;
+        line-height: 119px;
+    }
+
+    /*************make end menu**************/
+    /*************make start banner**************/
+    .parallax > section:nth-child(1) > section:nth-child(2) {
+        width: 165px;
+        left: 200px;
+        top: 230px;
+        position: relative;
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > section:nth-child(1) {
+        left: 0;
+        position: absolute;
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > h2:nth-child(2) {
+        font-family: IranSans;
+        text-align: center;
+        padding: 12px;
+        box-sizing: border-box;
+        color: #f4f4f4;
+        font-size: 10px;
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > p:nth-child(3) {
+        text-align: center;
+        padding-right: 10px;
+        box-sizing: border-box;
+        font-size: 15px;
+        color: #ff8013;
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > section:nth-child(4) {
+        right: 0;
+        top: 145px;
+        position: absolute;
+
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > a:nth-child(5) {
+        border: 1px dotted #ff8013;
+        width: 61px;
+        height: 30px;
+        right: 90px;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        line-height: 27px;
+        margin-top: 35px;
+        color: #f4f4f4;
+        font-family: IranSans;
+        font-size: x-small;
+
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > a:nth-child(5):hover {
+        border: 1px dotted #f4f4f4;
+        color: #ff8013;
+
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > a:nth-child(6) {
+        border: 1px dotted #ff8013;
+        width: 61px;
+        height: 30px;
+        left: 85px;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        line-height: 27px;
+        margin-top: 35px;
+        color: #f4f4f4;
+        font-family: IranSans;
+        font-size: x-small;
+
+    }
+
+    .parallax > section:nth-child(1) > section:nth-child(2) > a:nth-child(6):hover {
+        border: 1px dotted #f4f4f4;
+        color: #ff8013;
+
+    }
+
+    /*************make end banner**************/
+    /*************make start net**************/
+    .container > .net {
+        width: 100%;
+        height: 400px;
+        background: url("../images/about1-bg.jpg") no-repeat;
+        position: relative;
+
+    }
+
+    .container > .net > section:nth-child(1) {
+        width: 50%;
+        height: 200px;
+        bottom: 30px;
+        position: absolute;
+        left: 10px;
+    }
+
+    .net > section:nth-child(1) > h4 {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 50px;
+        font-size: 12px;
+
+    }
+
+    .net > section:nth-child(1) > h2 {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 40px;
+        color: #ff8013;
+        font-size: 13px;
+    }
+
+    .net > section:nth-child(1) > hr {
+        border: 2px solid #ff8013;
+        border-radius: 12px;
+        width: 85px;
+        float: right;
+        position: absolute;
+        right: 40px;
+    }
+
+    .net > section:nth-child(1) > h5 {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 40px;
+    }
+
+    .net > section:nth-child(1) > p {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        font-size: 10px;
+    }
+
+    .net > section:nth-child(2) {
+        width: 23%;
+        position: absolute;
+        right: 162px;
+        bottom: 231px;
+    }
+
+    /*************make end net**************/
+    /*************make start about**************/
+    .container > .about {
+        width: 100%;
+        height: 400px;
+        background: url("../images/about1-us-bg.jpg") center center no-repeat fixed;
+        background-size: cover;
+        position: relative;
+    }
+
+    .container > .about > section:nth-child(1) {
+        width: 50%;
+        height: 225px;
+        top: 10px;
+        position: absolute;
+        right: 50px;
+    }
+
+    .about > section:nth-child(1) > h2 {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        line-height: 53px;
+        font-size: 14px;
+        color: #ff8013;
+    }
+
+    .about > section:nth-child(1) > hr {
+        border: 2px solid #f4f4f4;
+        border-radius: 12px;
+        width: 85px;
+        float: right;
+        position: absolute;
+        right: 55px;
+
+    }
+
+    .about > section:nth-child(1) > p {
+        font-family: IranSans;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        color: #f4f4f4;
+        position: absolute;
+        font-size: 10px;
+        top: 73px;
+    }
+
+    .about > section:nth-child(1) > a {
+        border: 1px dotted #ff8013;
+        width: 64px;
+        height: 30px;
+        bottom: 23px;
+        right: 90px;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        line-height: 30px;
+        margin-top: 35px;
+        color: #f4f4f4;
+        font-family: IranSans;
+        font-size: x-small;
+
+    }
+
+    .about > section:nth-child(1) > a:hover {
+        border: 1px dotted #f4f4f4;
+        color: #ff8013;
+
+    }
+
+    /*************make end about**************/
+    /*************make start content-box**************/
+    .container > .content-box {
+        width: 100%;
+        height: 4600px;
+        background-color: #464646;
+
+    }
+
+    /*************make start content-box1**************/
+    .content-box > section:nth-child(1) {
+        width: 80%;
+        height: 500px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) {
+        width: inherit;
+        height: inherit;
+
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) > section:nth-child(1) {
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        top: -155px;
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) > section:nth-child(1) > img {
+        width: 100%;
+        height: inherit;
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) > section:nth-child(2) {
+        width: 100%;
+        height: 245px;
+        position: absolute;
+        background: url("../images/gym-girls.jpg") no-repeat;
+        background-size: cover;
+        bottom: 0;
+    }
+
+    .content-box > section:nth-child(1) > section:nth-child(1) > section:nth-child(2) > p {
+        font-family: IranSans;
+        text-align: center;
+        top: 80px;
+        position: absolute;
+        color: #f4f4f4;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    /*************make end content-box1**************/
+    /*************make start content-box2**************/
+    .content-box > section:nth-child(2) {
+        width: 481px;
+        height: 1300px;
+        background: url("../images/gym2.jpg") center center no-repeat fixed;
+        background-size: cover;
+        margin: 0 auto;
+        border-top: 10px solid #ff8013;
+        border-bottom: 10px solid #ff8013;
+        top: 67px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(1) {
+        width: 110px;
+        height: 70px;
+        margin-left: 195px;
+        position: relative;
+        top: 13px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(1) > h2:nth-child(2) {
+        font-family: IranSans;
+        text-align: center;
+        color: #f4f4f4;
+        line-height: 80px;
+        font-size: 13px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(1) > section:nth-child(1) {
+        left: 0;
+        position: absolute;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(1) > section:nth-child(3) {
+        right: 0;
+        top: 70px;
+        position: absolute;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) {
+        width: 100%;
+        height: 520px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-end;
+        justify-content: center;
+        position: absolute;
+        bottom: 15px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > img {
+        border-radius: 102px;
+        position: relative;
+        top: -120px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > section:nth-child(2) {
+        width: 90%;
+        height: 200px;
+        background-color: #cccccc;
+        position: relative;
+        border-radius: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > section:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        border: 20px solid;
+        border-color: transparent transparent #ccc transparent;
+        margin-top: -60px;
+        text-align: center;
+        margin-left: 200px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > section:nth-child(2) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(2) > section:nth-child(2) > p {
+        font-family: IranSans;
+        text-align: right;
+
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) {
+        width: 100%;
+        height: 580px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-end;
+        justify-content: center;
+        position: absolute;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > img {
+        border-radius: 102px;
+        top: 20px;
+        position: relative;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > section:nth-child(2) {
+        width: 90%;
+        height: 200px;
+        background-color: #cccccc;
+        top: 108px;
+        position: relative;
+        border-radius: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > section:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        border: 20px solid;
+        border-color: transparent transparent #ccc transparent;
+        margin-top: -60px;
+        text-align: center;
+        margin-left: 200px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > section:nth-child(2) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 65px;
+    }
+
+    .content-box > section:nth-child(2) > section:nth-child(3) > section:nth-child(2) > p {
+        font-family: IranSans;
+        text-align: right;
+    }
+
+    /*************make end content-box2**************/
+    /*************make start content-box3**************/
+    .content-box > section:nth-child(3) {
+        width: 80%;
+        height: 805px;
+        margin: 0 auto;
+        top: 110px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) {
+        width: 100%;
+        height: 200px;
+        background-color: #ff8013;
+        position: relative;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 50px;
+        font-size: x-large;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) > p {
+        font-family: IranSans;
+        text-align: right;
+        font-size: 16px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(1) > img {
+        top: 5px;
+        position: relative;
+        width: 100%;
+        height: 585px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) > section:nth-child(2) {
+        width: 100%;
+        height: 200px;
+        background-color: #ff8013;
+        position: relative;
+        padding: 20px;
+        box-sizing: border-box;
+        top: 5px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) > section:nth-child(2) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 50px;
+        font-size: x-large;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) > section:nth-child(2) > p {
+        font-family: IranSans;
+        text-align: right;
+        font-size: 16px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(2) > img {
+        position: relative;
+        width: 100%;
+        height: 585px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) > section:nth-child(1) {
+        width: 100%;
+        height: 200px;
+        background-color: #ff8013;
+        position: relative;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) > section:nth-child(1) > h4 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 50px;
+        font-size: x-large;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) > section:nth-child(1) > p {
+        font-family: IranSans;
+        text-align: right;
+        font-size: 16px;
+    }
+
+    .content-box > section:nth-child(3) > section:nth-child(3) > img {
+        top: 20px;
+        position: relative;
+        width: 100%;
+        height: 585px;
+    }
+
+    /*************make end content-box3**************/
+    /*************make end content-box**************/
+    /*************make start footer**************/
+    .container > .footer {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #101011;
+    }
+
+    /*************make start footer1**************/
+    .footer > section:nth-child(1) {
+        background-color: #101011;
+        width: 222px;
+
+    }
+
+    .footer > section:nth-child(1) > a {
+        display: block;
+        text-decoration: none;
+        margin-left: 30px;
+        line-height: 165px;
+        width: 236px;
+        height: 157px;
+    }
+
+    .footer > section:nth-child(1) > p:nth-child(2) {
+        font-family: IranSans;
+        text-align: center;
+        top: 160px;
+        padding: 16px;
+        box-sizing: border-box;
+        color: #f4f4f4;
+    }
+
+    .footer > section:nth-child(1) > p:nth-child(3) {
+        font-family: IranSans;
+        position: absolute;
+        bottom: 6px;
+        box-sizing: border-box;
+        color: #f4f4f4;
+        width: 200px;
+        font-size: 11px;
+    }
+
+    /*************make end footer1**************/
+    /*************make start footer2**************/
+    .footer > section:nth-child(2) {
+        background-color: #f4f4f4;
+        width: 529px;
+        position: relative;
+        top: 26px;
+        height: 430px;
+    }
+
+    .footer > section:nth-child(2) > h1 {
+        text-align: center;
+        font-family: IranSans;
+        font-size: 25px;
+        color: #ff8013;
+        line-height: 95px;
+        text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.63);
+    }
+
+    .footer > section:nth-child(2) > form {
+        width: 200px;
+        margin: 0 auto;
+        position: relative;
+        line-height: 35px;
+
+    }
+
+    .footer > section:nth-child(2) > form > input[type=text] {
+        width: 200px;
+        height: 30px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: #f4f4f4;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: x-small;
+        font-family: IranSans;
+    }
+
+    .footer > section:nth-child(2) > form > input[type=email] {
+        width: 200px;
+        height: 30px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: #f4f4f4;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: x-small;
+        font-family: IranSans;
+    }
+
+    .footer > section:nth-child(2) > form > textarea {
+        width: 200px;
+        height: 30px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: #f4f4f4;
+        box-sizing: border-box;
+        text-align: center;
+        resize: none;
+        font-size: x-small;
+        font-family: IranSans;
+    }
+
+    .footer > section:nth-child(2) > form > input[type=submit] {
+        width: 120px;
+        height: 30px;
+        outline: none;
+        color: #f4f4f4;
+        background-color: #343a40;
+        position: absolute;
+        left: 39px;
+        font-size: medium;
+        font-family: IranSans;
+
+    }
+
+    .footer > section:nth-child(2) > form > input[type=submit]:hover {
+        color: #f4f4f4;
+        background-color: #23272b;
+    }
+
+    /*************make end footer2**************/
+    /*************make start footer3**************/
+    .footer > section:nth-child(3) {
+        width: 529px;
+        background-color: #101011;
+
+    }
+
+    .footer > section:nth-child(3) > h5 {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 90px;
+        color: #f4f4f4;
+    }
+
+    .footer > section:nth-child(3) > p {
+        font-family: IranSans;
+        text-align: center;
+        line-height: 20px;
+        color: #f4f4f4;
+    }
+    /*************make end footer3**************/
+    /*************make end footer**************/
+}
